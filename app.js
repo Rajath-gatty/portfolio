@@ -107,7 +107,6 @@ const UI = ((ProjectCtrl) => {
 
         const populateModal = (id) => {
             const thumb = document.querySelector('.modal-thumb');
-            // const loader = document.querySelector('.loading');
             const altImgContainer = document.querySelector('.modal-alt-img');
             const techUsedContainer = document.querySelector('.tech-used');
             const modalHdng = document.querySelector('.modal-hdng');
@@ -153,7 +152,6 @@ const UI = ((ProjectCtrl) => {
 
             const thumb = document.querySelector('.modal-thumb');
             thumb.src = e.target.dataset.src;
-
         }
 
     return {
@@ -179,9 +177,7 @@ const App = ((ProjectCtrl,UI) => {
         }));
 
         document.querySelectorAll('.close-modal').forEach(el => el.addEventListener('click',UI.closeModal))
-
         document.querySelector('.modal-alt-img').addEventListener('click',UI.changeAltImages)
-
     }
 
     return {

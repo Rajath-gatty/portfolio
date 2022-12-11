@@ -2,7 +2,7 @@
     {
         "id":1,
         "title":"Blog",
-        "description":"This is a FullStack Blog website built using React.js, Node.js, Express.js, and MongoDB. It has a custom Login, password reset, and search post functionality. It has a dedicated Admin page where the users can create or update an existing post. The frontend and backend are interacting through API.",
+        "description":"This is a FullStack Blog website built using React.js, Node.js, Express.js, and MongoDB. It has a custom Login, password reset, and search post functionality. It has a dedicated Admin page where the users can create or update an existing post. The frontend and backend are interacting through API. Login credentials: [Admin - admin1@gmail.com], [Student - student1@gmail.com], [faculty - faculty1@gmail.com], [Staff - staff1@gmail.com] and Password is same for all i.e 123455",
         "features":["Image optimization using nodejs for blog images.","Create, update, delete feature for blog articles.","Reset and forgot password functionality","Currently deployed in Azure integrated with CI/CD pipeline."],
         "images":{
             "thumb":"./assets/blog/thumb.jpg",

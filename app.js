@@ -136,9 +136,9 @@ const UI = ((ProjectCtrl) => {
             project.features.forEach(fea => listsHtml+= `<li class="text-md  text-gray-light pl-3">${fea}</li>`)
             listContainer.insertAdjacentHTML('beforeend',listsHtml);
 
-            let imagesHtml = `<img class="w-28 border alt-image border-gray-light/30 p-1 rounded-md" src="${project.images.thumbLazy}" data-src="${project.images.thumb}" data-id="${project.id}" data-pos="0" alt="blog"/>`;
+            let imagesHtml = `<img class="w-28 border cursor-pointer alt-image border-gray-light/30 p-1 rounded-md" src="${project.images.thumbLazy}" data-src="${project.images.thumb}" data-id="${project.id}" data-pos="0" alt="blog"/>`;
             project.images.altImages.forEach((img,i) => {
-                imagesHtml+= `<img class="w-28 border alt-image border-gray-light/30 p-1 rounded-md" src="${img.imgLazy}" data-src="${img.img}" data-id="${project.id}" data-pos="${i+1}" alt="blog"/>`
+                imagesHtml+= `<img class="w-28 border cursor-pointer alt-image border-gray-light/30 p-1 rounded-md" src="${img.imgLazy}" data-src="${img.img}" data-id="${project.id}" data-pos="${i+1}" alt="blog"/>`
             })
             altImgContainer.insertAdjacentHTML('beforeend',imagesHtml);
 

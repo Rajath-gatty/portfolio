@@ -18,9 +18,9 @@
                 }
             ]
         },
-        "techUsed":["React.js","Node.js","Azure","Mongodb","Express.js"],
-        "githubUrl":"https://github.com/Rajath-gatty/mern-blog-client",
-        "demoUrl":"https://mernblog.tech/",
+        "techUsed":["React.js","Node.js","Azure","Strapi"],
+        "githubUrl":"https://github.com/Rajath-gatty/emart-ecommerce",
+        "demoUrl":"https://emart-ecom.netlify.app/",
         "tags":["fullstack","frontend"]
     },
     {

@@ -1,5 +1,33 @@
 [
     {
+        "id":10,
+        "title":"Instagram Clone",
+        "description":"This is a FullStack Instagram web app built using Next.js. This app uses Next.js 13 latest Server components and renders HTML on the server. MongoDB is used as the database and Next Auth is used for authentication. React Context API is used to store global app data. ",
+        "features":["Users can like and comment posts","Users can upload post","Google login functionality","All Images are hosted and uploaded to Azure cloud","SEO Friendly"],
+        "images":{
+            "thumb":"./assets/instagram-clone/thumb.jpg",
+            "thumbLazy":"./assets/instagram-clone/thumb-lazy.jpg",
+            "altImages":[
+                {
+                    "img":"./assets/instagram-clone/altImg1.jpg",
+                    "imgLazy":"./assets/instagram-clone/altImg1-lazy.jpg"
+                },
+                {
+                    "img":"./assets/instagram-clone/altImg2.jpg",
+                    "imgLazy":"./assets/instagram-clone/altImg2-lazy.jpg"
+                },
+                {
+                    "img":"./assets/instagram-clone/altImg3.jpg",
+                    "imgLazy":"./assets/instagram-clone/altImg3-lazy.jpg"
+                }
+            ]
+        },
+        "techUsed":["Next.js 13","React.js","Azure","Fullstack"],
+        "githubUrl":"https://github.com/Rajath-gatty/instagram-clone",
+        "demoUrl":"https://instagram-proj.vercel.app/",
+        "tags":["fullstack","frontend"]
+    },
+    {
         "id":9,
         "title":"Emart",
         "description":"This is a FullStack Ecommerce website built using React.js, Redux.js and Strapi as CMS to manage products. Frontend of this website is built using React.js, Redux and uses Strapi CMS for the backend. Data is communicated through Rest API.It uses Mysql for the database.",

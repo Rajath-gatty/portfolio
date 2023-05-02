@@ -70,7 +70,7 @@ const UI = ((ProjectCtrl) => {
                 <div class="bg-white proj mt-8 mx-3 opacity-0 duration-700 transition-all shadow-xl z-10 p-2">
                 <div class="flex xs:flex-col lg:flex-row items-center justify-center xs:6 lg:gap-12">
                 <div class="flex-1 relative">
-                    <img class="bg-cover project-img w-full blur-img" src="${proj.images.thumbLazy}" data-img="${proj.images.thumb}" data-id="${proj.id}" alt="${proj.title}">
+                    <img class="bg-cover project-img w-full blur-img" src="${proj.images.thumbLazy}" data-img="${proj.images.thumb}" data-id="${proj.id}" alt="${proj.title} Project">
                     <div class="img-thumb-backdrop flex items-center justify-center">
                     <button class="py-[0.75rem] font-bold px-4 text-sm text-white border border-white z-30 more-details-btn" data-id="${proj.id}">More Details</button>
                     </div>

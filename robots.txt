@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://rajath.live/sitemap.xml

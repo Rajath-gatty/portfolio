@@ -54,7 +54,7 @@
     {
         "id":1,
         "title":"Blog",
-        "description":"This is a FullStack Blog website built using React.js, Node.js, Express.js, and MongoDB. It has a custom Login, password reset, and search post functionality. It has a dedicated Admin page where the users can create or update an existing post. The frontend and backend are interacting through API. Login credentials: [Admin - admin1@gmail.com], [Student - student1@gmail.com], [faculty - faculty1@gmail.com], [Staff - staff1@gmail.com] and Password is same for all i.e 123455",
+        "description":"This is a FullStack Blog website built using React.js, Node.js, Express.js, and MongoDB. It has a custom Login, password reset, and search post functionality. It has a dedicated Admin page where the users can create or update an existing post. The frontend and backend are interacting through API.",
         "features":["Image optimization using nodejs for blog images.","Create, update, delete feature for blog articles.","Reset and forgot password functionality","Currently deployed in Azure integrated with CI/CD pipeline."],
         "images":{
             "thumb":"./assets/blog/thumb.jpg",
@@ -86,7 +86,7 @@
     {
         "id":2,
         "title":"Exam manager",
-        "description":"Exam management web app used to automate the examination process of the university. This project is currently used by college to automate the examination process. Frontend of this application is built using React.js, Material UI and backend server is written in node.js, Express.js and database is Mysql. Frontend and backend are Interacting through Rest APIs.",
+        "description":"Exam management web app used to automate the examination process of the university. This project is currently used by college to automate the examination process. Frontend of this application is built using React.js, Material UI and backend server is written in node.js, Express.js and database is Mysql. Frontend and backend are Interacting through Rest APIs.  Login credentials: [Admin - admin1@gmail.com], [Student - student1@gmail.com], [faculty - faculty1@gmail.com], [Staff - staff1@gmail.com] and Password is same for all i.e 123455",
         "features":["Dynamic PDF creation for hallticket generation, File upload and download feature.","This project has 5 user roles. Student, faculty, staff, admin, super admin.","Complex registration forms with multiple user Inputs.","Reset and forgot password functionality."],
         "images":{
             "thumb":"./assets/exam-manager/thumb.jpg",

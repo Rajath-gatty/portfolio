@@ -124,7 +124,7 @@ var TerminalEmulator = {
     .then( TE.enterInput.bind(TE, 'Frontend technologies i use') )
     .then( TE.enterCommand.bind( TE ) ) 
     .then( TE.wait.bind(TE, 1000) )
-    .then( TE.enterResponse.bind(TE, '-   HTML, CSS, Javascript, React.js') )
+    .then( TE.enterResponse.bind(TE, '-   HTML, CSS, Javascript, React.js, Next.js, typescript') )
     .then( TE.enterInput.bind(TE, 'Backend technologies') )
     .then( TE.enterCommand.bind( TE ) ) 
     .then( TE.wait.bind(TE, 1000) )

@@ -1,257 +1,361 @@
 [
     {
-        "id":10,
-        "title":"Instagram Clone",
-        "description":"This is a FullStack Instagram web app built using Next.js. This app uses Next.js 13 latest Server components and renders HTML on the server. MongoDB is used as the database and Next Auth is used for authentication. React Context API is used to store global app data. ",
-        "features":["Users can like and comment posts","Users can upload post","Google login functionality","All Images are hosted and uploaded to Azure cloud","SEO Friendly"],
-        "images":{
-            "thumb":"./assets/instagram-clone/thumb.jpg",
-            "thumbLazy":"./assets/instagram-clone/thumb-lazy.jpg",
-            "altImages":[
+        "id": 11,
+        "title": "Notely",
+        "description": "Notely is a fullStack note taking app built using MERN stack, It also uses stripe as a payment processor and socket.io for realtime communication across connected clients.",
+        "features": [
+            "Realtime communication using socket.io",
+            "Live chat feature for connected users",
+            "App contains free and pro plan based on monthly subscription",
+            "App uses stripe for payment processing",
+            "Google login functionality",
+            "Images are hosted in AWS S3",
+            "Users can manage payment and billing information in profile page",
+            "Beautiful and smooth UI experience"
+        ],
+        "images": {
+            "thumb": "./assets/notely/thumb.jpg",
+            "thumbLazy": "./assets/notely/thumb-lazy.jpg",
+            "altImages": [
                 {
-                    "img":"./assets/instagram-clone/altImg1.jpg",
-                    "imgLazy":"./assets/instagram-clone/altImg1-lazy.jpg"
+                    "img": "./assets/notely/altImg1.jpg",
+                    "imgLazy": "./assets/notely/altImg1-lazy.jpg"
                 },
                 {
-                    "img":"./assets/instagram-clone/altImg2.jpg",
-                    "imgLazy":"./assets/instagram-clone/altImg2-lazy.jpg"
+                    "img": "./assets/notely/altImg2.jpg",
+                    "imgLazy": "./assets/notely/altImg2-lazy.jpg"
                 },
                 {
-                    "img":"./assets/instagram-clone/altImg3.jpg",
-                    "imgLazy":"./assets/instagram-clone/altImg3-lazy.jpg"
+                    "img": "./assets/notely/altImg3.jpg",
+                    "imgLazy": "./assets/notely/altImg3-lazy.jpg"
+                },
+                {
+                    "img": "./assets/notely/altImg4.jpg",
+                    "imgLazy": "./assets/notely/altImg4-lazy.jpg"
+                },
+                {
+                    "img": "./assets/notely/altImg5.jpg",
+                    "imgLazy": "./assets/notely/altImg5-lazy.jpg"
                 }
             ]
         },
-        "techUsed":["Next.js 13","React.js","Azure","Fullstack"],
-        "githubUrl":"https://github.com/Rajath-gatty/instagram-clone",
-        "demoUrl":"https://instagram-proj.vercel.app/",
-        "tags":["fullstack","frontend"]
+        "techUsed": [
+            "React.js",
+            "Node.js",
+            "MongoDB",
+            "Socket.io",
+            "AWS",
+            "Express.js",
+            "Stripe"
+        ],
+        "githubUrl": "https://github.com/Rajath-gatty/notely-backend",
+        "demoUrl": "https://notely-v1.netlify.app/",
+        "tags": ["fullstack", "frontend"]
     },
     {
-        "id":9,
-        "title":"Emart",
-        "description":"This is a FullStack Ecommerce website built using React.js, Redux.js and Strapi as CMS to manage products. Frontend of this website is built using React.js, Redux and uses Strapi CMS for the backend. Data is communicated through Rest API.It uses Mysql for the database.",
-        "features":["Add to Cart functionality","Google login feature","User friendly backend UI to manage products"],
-        "images":{
-            "thumb":"./assets/emart/thumb.jpg",
-            "thumbLazy":"./assets/emart/thumb-lazy.jpg",
-            "altImages":[
+        "id": 10,
+        "title": "Instagram Clone",
+        "description": "This is a FullStack Instagram web app built using Next.js. This app uses Next.js 13 latest Server components and renders HTML on the server. MongoDB is used as the database and Next Auth is used for authentication. React Context API is used to store global app data. ",
+        "features": [
+            "Users can like and comment posts",
+            "Users can upload post",
+            "Google login functionality",
+            "All Images are hosted and uploaded to Azure cloud",
+            "SEO Friendly"
+        ],
+        "images": {
+            "thumb": "./assets/instagram-clone/thumb.jpg",
+            "thumbLazy": "./assets/instagram-clone/thumb-lazy.jpg",
+            "altImages": [
                 {
-                    "img":"./assets/emart/altImg1.jpg",
-                    "imgLazy":"./assets/emart/altImg1-lazy.jpg"
+                    "img": "./assets/instagram-clone/altImg1.jpg",
+                    "imgLazy": "./assets/instagram-clone/altImg1-lazy.jpg"
                 },
                 {
-                    "img":"./assets/emart/altImg2.jpg",
-                    "imgLazy":"./assets/emart/altImg2-lazy.jpg"
+                    "img": "./assets/instagram-clone/altImg2.jpg",
+                    "imgLazy": "./assets/instagram-clone/altImg2-lazy.jpg"
+                },
+                {
+                    "img": "./assets/instagram-clone/altImg3.jpg",
+                    "imgLazy": "./assets/instagram-clone/altImg3-lazy.jpg"
                 }
             ]
         },
-        "techUsed":["React.js","Node.js","Azure","Strapi"],
-        "githubUrl":"https://github.com/Rajath-gatty/emart-ecommerce",
-        "demoUrl":"https://emart-ecom.netlify.app/",
-        "tags":["fullstack","frontend"]
+        "techUsed": ["Next.js 13", "React.js", "Azure", "Fullstack"],
+        "githubUrl": "https://github.com/Rajath-gatty/instagram-clone",
+        "demoUrl": "https://instagram-proj.vercel.app/",
+        "tags": ["fullstack", "frontend"]
     },
     {
-        "id":1,
-        "title":"Blog",
-        "description":"This is a FullStack Blog website built using React.js, Node.js, Express.js, and MongoDB. It has a custom Login, password reset, and search post functionality. It has a dedicated Admin page where the users can create or update an existing post. The frontend and backend are interacting through API.",
-        "features":["Image optimization using nodejs for blog images.","Create, update, delete feature for blog articles.","Reset and forgot password functionality","Currently deployed in Azure integrated with CI/CD pipeline."],
-        "images":{
-            "thumb":"./assets/blog/thumb.jpg",
-            "thumbLazy":"./assets/blog/thumb-lazy.jpg",
-            "altImages":[
+        "id": 9,
+        "title": "Emart",
+        "description": "This is a FullStack Ecommerce website built using React.js, Redux.js and Strapi as CMS to manage products. Frontend of this website is built using React.js, Redux and uses Strapi CMS for the backend. Data is communicated through Rest API.It uses Mysql for the database.",
+        "features": [
+            "Add to Cart functionality",
+            "Google login feature",
+            "User friendly backend UI to manage products"
+        ],
+        "images": {
+            "thumb": "./assets/emart/thumb.jpg",
+            "thumbLazy": "./assets/emart/thumb-lazy.jpg",
+            "altImages": [
                 {
-                    "img":"./assets/blog/altImg1.jpg",
-                    "imgLazy":"./assets/blog/altImg1-lazy.jpg"
+                    "img": "./assets/emart/altImg1.jpg",
+                    "imgLazy": "./assets/emart/altImg1-lazy.jpg"
                 },
                 {
-                    "img":"./assets/blog/altImg2.jpg",
-                    "imgLazy":"./assets/blog/altImg2-lazy.jpg"
-                },
-                {
-                    "img":"./assets/blog/altImg3.jpg",
-                    "imgLazy":"./assets/blog/altImg3-lazy.jpg"
-                },
-                {
-                    "img":"./assets/blog/altImg4.jpg",
-                    "imgLazy":"./assets/blog/altImg4-lazy.jpg"
+                    "img": "./assets/emart/altImg2.jpg",
+                    "imgLazy": "./assets/emart/altImg2-lazy.jpg"
                 }
             ]
         },
-        "techUsed":["React.js","Node.js","Azure","Mongodb","Express.js"],
-        "githubUrl":"https://github.com/Rajath-gatty/mern-blog-client",
-        "demoUrl":"https://mernblog.tech/",
-        "tags":["fullstack","frontend"]
+        "techUsed": ["React.js", "Node.js", "Azure", "Strapi"],
+        "githubUrl": "https://github.com/Rajath-gatty/emart-ecommerce",
+        "demoUrl": "https://emart-ecom.netlify.app/",
+        "tags": ["fullstack", "frontend"]
     },
     {
-        "id":2,
-        "title":"Exam manager",
-        "description":"Exam management web app used to automate the examination process of the university. This project is currently used by college to automate the examination process. Frontend of this application is built using React.js, Material UI and backend server is written in node.js, Express.js and database is Mysql. Frontend and backend are Interacting through Rest APIs.  Login credentials: [Admin - admin1@gmail.com], [Student - student1@gmail.com], [faculty - faculty1@gmail.com], [Staff - staff1@gmail.com] and Password is same for all i.e 123455",
-        "features":["Dynamic PDF creation for hallticket generation, File upload and download feature.","This project has 5 user roles. Student, faculty, staff, admin, super admin.","Complex registration forms with multiple user Inputs.","Reset and forgot password functionality."],
-        "images":{
-            "thumb":"./assets/exam-manager/thumb.jpg",
-            "thumbLazy":"./assets/exam-manager/thumb-lazy.png",
-            "altImages":[
+        "id": 1,
+        "title": "Blog",
+        "description": "This is a FullStack Blog website built using React.js, Node.js, Express.js, and MongoDB. It has a custom Login, password reset, and search post functionality. It has a dedicated Admin page where the users can create or update an existing post. The frontend and backend are interacting through API.",
+        "features": [
+            "Image optimization using nodejs for blog images.",
+            "Create, update, delete feature for blog articles.",
+            "Reset and forgot password functionality",
+            "Currently deployed in Azure integrated with CI/CD pipeline."
+        ],
+        "images": {
+            "thumb": "./assets/blog/thumb.jpg",
+            "thumbLazy": "./assets/blog/thumb-lazy.jpg",
+            "altImages": [
                 {
-                    "img":"./assets/exam-manager/altImg1.jpg",
-                    "imgLazy":"./assets/exam-manager/altImg1-lazy.png"
+                    "img": "./assets/blog/altImg1.jpg",
+                    "imgLazy": "./assets/blog/altImg1-lazy.jpg"
                 },
                 {
-                    "img":"./assets/exam-manager/altImg2.jpg",
-                    "imgLazy":"./assets/exam-manager/altImg2-lazy.png"
+                    "img": "./assets/blog/altImg2.jpg",
+                    "imgLazy": "./assets/blog/altImg2-lazy.jpg"
                 },
                 {
-                    "img":"./assets/exam-manager/altImg3.jpg",
-                    "imgLazy":"./assets/exam-manager/altImg3-lazy.png"
+                    "img": "./assets/blog/altImg3.jpg",
+                    "imgLazy": "./assets/blog/altImg3-lazy.jpg"
                 },
                 {
-                    "img":"./assets/exam-manager/altImg4.jpg",
-                    "imgLazy":"./assets/exam-manager/altImg4-lazy.png"
+                    "img": "./assets/blog/altImg4.jpg",
+                    "imgLazy": "./assets/blog/altImg4-lazy.jpg"
                 }
             ]
         },
-        "techUsed":["React.js","Node.js","Azure","Mongodb","Express.js"],
-        "githubUrl":"https://github.com/Rajath-gatty/srinivas-exam-manager",
-        "demoUrl":"https://srinivas-exam-manager.netlify.app/",
-        "tags":["fullstack","frontend"]
+        "techUsed": ["React.js", "Node.js", "Azure", "Mongodb", "Express.js"],
+        "githubUrl": "https://github.com/Rajath-gatty/mern-blog-client",
+        "demoUrl": "https://mern-blog12.netlify.app/",
+        "tags": ["fullstack", "frontend"]
     },
     {
-        "id":3,
-        "title":"Chatapp",
-        "description":"This is a whatsapp clone built using socket.io and nodejs in the backend and built using React.js in frontend.",
-        "features":["Realtime communication using socket.io and nodejs","User profile image upload/change feature, Images are stored in Azure blob storage.","Beautiful and interactive user interface built using React.js","User Authentication using jsonwebtoken."],
-        "images":{
-            "thumb":"./assets/chatapp/thumb.jpg",
-            "thumbLazy":"./assets/chatapp/thumb-lazy.png",
-            "altImages":[
+        "id": 2,
+        "title": "Exam manager",
+        "description": "Exam management web app used to automate the examination process of the university. This project is currently used by college to automate the examination process. Frontend of this application is built using React.js, Material UI and backend server is written in node.js, Express.js and database is Mysql. Frontend and backend are Interacting through Rest APIs.  Login credentials: [Admin - admin1@gmail.com], [Student - student1@gmail.com], [faculty - faculty1@gmail.com], [Staff - staff1@gmail.com] and Password is same for all i.e 123455",
+        "features": [
+            "Dynamic PDF creation for hallticket generation, File upload and download feature.",
+            "This project has 5 user roles. Student, faculty, staff, admin, super admin.",
+            "Complex registration forms with multiple user Inputs.",
+            "Reset and forgot password functionality."
+        ],
+        "images": {
+            "thumb": "./assets/exam-manager/thumb.jpg",
+            "thumbLazy": "./assets/exam-manager/thumb-lazy.png",
+            "altImages": [
                 {
-                    "img":"./assets/chatapp/altImg1.jpg",
-                    "imgLazy":"./assets/chatapp/altImg1-lazy.png"
+                    "img": "./assets/exam-manager/altImg1.jpg",
+                    "imgLazy": "./assets/exam-manager/altImg1-lazy.png"
                 },
                 {
-                    "img":"./assets/chatapp/altImg2.jpg",
-                    "imgLazy":"./assets/chatapp/altImg2-lazy.png"
+                    "img": "./assets/exam-manager/altImg2.jpg",
+                    "imgLazy": "./assets/exam-manager/altImg2-lazy.png"
                 },
                 {
-                    "img":"./assets/chatapp/altImg3.jpg",
-                    "imgLazy":"./assets/chatapp/altImg3-lazy.png"
+                    "img": "./assets/exam-manager/altImg3.jpg",
+                    "imgLazy": "./assets/exam-manager/altImg3-lazy.png"
                 },
                 {
-                    "img":"./assets/chatapp/altImg4.jpg",
-                    "imgLazy":"./assets/chatapp/altImg4-lazy.png"
+                    "img": "./assets/exam-manager/altImg4.jpg",
+                    "imgLazy": "./assets/exam-manager/altImg4-lazy.png"
                 }
             ]
         },
-        "techUsed":["React.js","Node.js","Azure","Mongodb","Express.js","Socket.io"],
-        "githubUrl":"https://github.com/Rajath-gatty/chatapp-client",
-        "demoUrl":"https://chatapp-01.netlify.app/",
-        "tags":["fullstack","frontend"]
+        "techUsed": ["React.js", "Node.js", "Azure", "Mongodb", "Express.js"],
+        "githubUrl": "https://github.com/Rajath-gatty/srinivas-exam-manager",
+        "demoUrl": "https://srinivas-exam-manager.netlify.app/",
+        "tags": ["fullstack", "frontend"]
     },
     {
-        "id":4,
-        "title":"Covid Tracker",
-        "description":"Covid Tracker is a frontend app used to track covid-19 Data across the world, This app is built using React.js. Data is served through the external API",
-        "features":["Visual Representation of data using charts","Data is served through API.","Interactive user Interface"],
-        "images":{
-            "thumb":"./assets/covid-tracker/thumb.jpg",
-            "thumbLazy":"./assets/covid-tracker/thumb-lazy.png",
-            "altImages":[
+        "id": 3,
+        "title": "Chatapp",
+        "description": "This is a whatsapp clone built using socket.io and nodejs in the backend and built using React.js in frontend.",
+        "features": [
+            "Realtime communication using socket.io and nodejs",
+            "User profile image upload/change feature, Images are stored in Azure blob storage.",
+            "Beautiful and interactive user interface built using React.js",
+            "User Authentication using jsonwebtoken."
+        ],
+        "images": {
+            "thumb": "./assets/chatapp/thumb.jpg",
+            "thumbLazy": "./assets/chatapp/thumb-lazy.png",
+            "altImages": [
                 {
-                    "img":"./assets/covid-tracker/altImg1.jpg",
-                    "imgLazy":"./assets/covid-tracker/altImg1-lazy.png"
+                    "img": "./assets/chatapp/altImg1.jpg",
+                    "imgLazy": "./assets/chatapp/altImg1-lazy.png"
                 },
                 {
-                    "img":"./assets/covid-tracker/altImg2.jpg",
-                    "imgLazy":"./assets/covid-tracker/altImg2-lazy.png"
-                }
-            ]
-        },
-        "techUsed":["React.js"],
-        "githubUrl":"https://github.com/Rajath-gatty/covid-tracker",
-        "demoUrl":"https://covid-tracker-01.netlify.app/",
-        "tags":["frontend"]
-    },
-    {
-        "id":5,
-        "title":"Photo Gallery",
-        "description":"Photo Gallery is a frontend app used to search images. This app is built using React.js. Images are served from the Pixabay API.",
-        "features":["Images are served from Pixabay API.","Search functionality","Interactive user Interface"],
-        "images":{
-            "thumb":"./assets/photo-gallery/thumb.jpg",
-            "thumbLazy":"./assets/photo-gallery/thumb-lazy.png",
-            "altImages":[]
-        },
-        "techUsed":["React.js"],
-        "githubUrl":"https://github.com/Rajath-gatty/photo-gallery",
-        "demoUrl":"https://photo-gallery-01.netlify.app/",
-        "tags":["frontend"]
-    },
-    {
-        "id":6,
-        "title":"Cryptoshorts",
-        "description":"This is a crypto news website built using PHP and deployed on Wordpress CMS",
-        "features":["User authentication feature","Create, update, delete blog articles in wordpress"],
-        "images":{
-            "thumb":"./assets/cryptoshorts/thumb.jpg",
-            "thumbLazy":"./assets/cryptoshorts/thumb-lazy.png",
-            "altImages":[
-                {
-                    "img":"./assets/cryptoshorts/altImg1.jpg",
-                    "imgLazy":"./assets/cryptoshorts/altImg1-lazy.png"
-                }
-            ]
-        },
-        "techUsed":["PHP","Wordpress"],
-        "githubUrl":null,
-        "demoUrl":"https://cryptonight.netlify.app/",
-        "tags":["frontend","wordpress"]
-    },
-    {
-        "id":7,
-        "title":"Tech Store",
-        "description":"Tech Store is a ecommerce app, built using React.js and new product can be added through Contentful headless CMS",
-        "features":["Add or delete Items from the cart","Product checkout page with price calculator","Add or Update Product through Contentful API"],
-        "images":{
-            "thumb":"./assets/tech-store/thumb.jpg",
-            "thumbLazy":"./assets/tech-store/thumb-lazy.png",
-            "altImages":[
-                {
-                    "img":"./assets/tech-store/altImg1.jpg",
-                    "imgLazy":"./assets/tech-store/altImg1-lazy.png"
+                    "img": "./assets/chatapp/altImg2.jpg",
+                    "imgLazy": "./assets/chatapp/altImg2-lazy.png"
                 },
                 {
-                    "img":"./assets/tech-store/altImg2.jpg",
-                    "imgLazy":"./assets/tech-store/altImg2-lazy.png"
+                    "img": "./assets/chatapp/altImg3.jpg",
+                    "imgLazy": "./assets/chatapp/altImg3-lazy.png"
                 },
                 {
-                    "img":"./assets/tech-store/altImg3.jpg",
-                    "imgLazy":"./assets/tech-store/altImg3-lazy.png"
+                    "img": "./assets/chatapp/altImg4.jpg",
+                    "imgLazy": "./assets/chatapp/altImg4-lazy.png"
                 }
             ]
         },
-        "techUsed":["React.js","Contentful"],
-        "githubUrl":"https://github.com/Rajath-gatty/React-tech-store",
-        "demoUrl":"https://react-tech-store-12.netlify.app/",
-        "tags":["frontend","store"]
+        "techUsed": [
+            "React.js",
+            "Node.js",
+            "Azure",
+            "Mongodb",
+            "Express.js",
+            "Socket.io"
+        ],
+        "githubUrl": "https://github.com/Rajath-gatty/chatapp-client",
+        "demoUrl": "https://chatapp-01.netlify.app/",
+        "tags": ["fullstack", "frontend"]
     },
     {
-        "id":8,
-        "title":"Weather App",
-        "description":"This is a weather app, It can search weather for the Particular city, It was built using Vanilla javascript, Weather data is being fetched from the external API",
-        "features":["Display weather for City/town","City can be searched using city name and Country code","Icon Indicator for specific weather"],
-        "images":{
-            "thumb":"./assets/weather/thumb.jpg",
-            "thumbLazy":"./assets/weather/thumb-lazy.png",
-            "altImages":[
+        "id": 4,
+        "title": "Covid Tracker",
+        "description": "Covid Tracker is a frontend app used to track covid-19 Data across the world, This app is built using React.js. Data is served through the external API",
+        "features": [
+            "Visual Representation of data using charts",
+            "Data is served through API.",
+            "Interactive user Interface"
+        ],
+        "images": {
+            "thumb": "./assets/covid-tracker/thumb.jpg",
+            "thumbLazy": "./assets/covid-tracker/thumb-lazy.png",
+            "altImages": [
                 {
-                    "img":"./assets/weather/altImg1.jpg",
-                    "imgLazy":"./assets/weather/altImg1-lazy.png"
+                    "img": "./assets/covid-tracker/altImg1.jpg",
+                    "imgLazy": "./assets/covid-tracker/altImg1-lazy.png"
+                },
+                {
+                    "img": "./assets/covid-tracker/altImg2.jpg",
+                    "imgLazy": "./assets/covid-tracker/altImg2-lazy.png"
                 }
             ]
         },
-        "techUsed":["Javascript","HTML","CSS"],
-        "githubUrl":"https://github.com/Rajath-gatty/weather-app",
-        "demoUrl":"https://weather-app-01.netlify.app/",
-        "tags":["frontend"]
+        "techUsed": ["React.js"],
+        "githubUrl": "https://github.com/Rajath-gatty/covid-tracker",
+        "demoUrl": "https://covid-tracker-01.netlify.app/",
+        "tags": ["frontend"]
+    },
+    {
+        "id": 5,
+        "title": "Photo Gallery",
+        "description": "Photo Gallery is a frontend app used to search images. This app is built using React.js. Images are served from the Pixabay API.",
+        "features": [
+            "Images are served from Pixabay API.",
+            "Search functionality",
+            "Interactive user Interface"
+        ],
+        "images": {
+            "thumb": "./assets/photo-gallery/thumb.jpg",
+            "thumbLazy": "./assets/photo-gallery/thumb-lazy.png",
+            "altImages": []
+        },
+        "techUsed": ["React.js"],
+        "githubUrl": "https://github.com/Rajath-gatty/photo-gallery",
+        "demoUrl": "https://photo-gallery-01.netlify.app/",
+        "tags": ["frontend"]
+    },
+    {
+        "id": 6,
+        "title": "Cryptoshorts",
+        "description": "This is a crypto news website built using PHP and deployed on Wordpress CMS",
+        "features": [
+            "User authentication feature",
+            "Create, update, delete blog articles in wordpress"
+        ],
+        "images": {
+            "thumb": "./assets/cryptoshorts/thumb.jpg",
+            "thumbLazy": "./assets/cryptoshorts/thumb-lazy.png",
+            "altImages": [
+                {
+                    "img": "./assets/cryptoshorts/altImg1.jpg",
+                    "imgLazy": "./assets/cryptoshorts/altImg1-lazy.png"
+                }
+            ]
+        },
+        "techUsed": ["PHP", "Wordpress"],
+        "githubUrl": null,
+        "demoUrl": "https://cryptonight.netlify.app/",
+        "tags": ["frontend", "wordpress"]
+    },
+    {
+        "id": 7,
+        "title": "Tech Store",
+        "description": "Tech Store is a ecommerce app, built using React.js and new product can be added through Contentful headless CMS",
+        "features": [
+            "Add or delete Items from the cart",
+            "Product checkout page with price calculator",
+            "Add or Update Product through Contentful API"
+        ],
+        "images": {
+            "thumb": "./assets/tech-store/thumb.jpg",
+            "thumbLazy": "./assets/tech-store/thumb-lazy.png",
+            "altImages": [
+                {
+                    "img": "./assets/tech-store/altImg1.jpg",
+                    "imgLazy": "./assets/tech-store/altImg1-lazy.png"
+                },
+                {
+                    "img": "./assets/tech-store/altImg2.jpg",
+                    "imgLazy": "./assets/tech-store/altImg2-lazy.png"
+                },
+                {
+                    "img": "./assets/tech-store/altImg3.jpg",
+                    "imgLazy": "./assets/tech-store/altImg3-lazy.png"
+                }
+            ]
+        },
+        "techUsed": ["React.js", "Contentful"],
+        "githubUrl": "https://github.com/Rajath-gatty/React-tech-store",
+        "demoUrl": "https://react-tech-store-12.netlify.app/",
+        "tags": ["frontend", "store"]
+    },
+    {
+        "id": 8,
+        "title": "Weather App",
+        "description": "This is a weather app, It can search weather for the Particular city, It was built using Vanilla javascript, Weather data is being fetched from the external API",
+        "features": [
+            "Display weather for City/town",
+            "City can be searched using city name and Country code",
+            "Icon Indicator for specific weather"
+        ],
+        "images": {
+            "thumb": "./assets/weather/thumb.jpg",
+            "thumbLazy": "./assets/weather/thumb-lazy.png",
+            "altImages": [
+                {
+                    "img": "./assets/weather/altImg1.jpg",
+                    "imgLazy": "./assets/weather/altImg1-lazy.png"
+                }
+            ]
+        },
+        "techUsed": ["Javascript", "HTML", "CSS"],
+        "githubUrl": "https://github.com/Rajath-gatty/weather-app",
+        "demoUrl": "https://weather-app-01.netlify.app/",
+        "tags": ["frontend"]
     }
 ]

@@ -130,4 +130,3 @@ var TerminalEmulator = {
     .then( TE.wait.bind(TE, 1000) )
     .then( TE.enterResponse.bind(TE, '-   Node.js, Express.js, Mysql, MongoDB') )
     .then( TE.wait.bind(TE, 700) )
-  

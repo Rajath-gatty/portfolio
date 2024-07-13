@@ -1,0 +1,202 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Lenis css */
+html.lenis,
+html.lenis body {
+    height: auto;
+}
+
+.lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+    overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+    pointer-events: none;
+}
+
+/* Nav Link */
+.nav-link span {
+    transition: 0.3s ease-out;
+}
+
+.nav-link:hover span {
+    transform: translateY(-20px);
+}
+
+.text-white-gradient {
+    -webkit-text-fill-color: transparent;
+}
+
+/* Skills section */
+.mask-rect-right {
+    transform: translate3d(-100%, 0px, 0px);
+    transition: 1s ease-out;
+}
+.mask-rect-left {
+    transform: translate3d(100%, 0px, 0px);
+    transition: 1s ease-out;
+}
+
+.skills-wrapper:hover .mask-rect-right,
+.skills-wrapper:hover .mask-rect-left {
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.icon-shadow-left,
+.icon-shadow-right {
+    transition: transform 0.4s ease-out;
+}
+
+.skills-wrapper:hover .icon-shadow-left {
+    transform: translate3d(-10%, 0px, 0px);
+}
+.skills-wrapper:hover .icon-shadow-right {
+    transform: translate3d(10%, 0px, 0px);
+}
+
+/* Hero section */
+.hero-hdng {
+    margin-top: 2rem;
+    --text-y-transform: -2rem;
+}
+
+.sub-hdng {
+    --animate-text-delay: 0.3s;
+    --text-y-transform: -2rem;
+}
+
+.para-text {
+    --animate-text-delay: 0.6s;
+    --text-y-transform: -1.5rem;
+}
+.hero-btn-wrapper {
+    --animate-text-delay: 0.8s;
+    --text-y-transform: 1.5rem;
+}
+
+.hero-hdng,
+.sub-hdng,
+.para-text,
+.hero-btn-wrapper {
+    animation: animate-text 1s ease-out forwards;
+    animation-delay: var(--animate-text-delay);
+}
+
+@keyframes animate-text {
+    from {
+        opacity: 0;
+    }
+    to {
+        transform: translate3d(0px, var(--text-y-transform), 0px);
+        opacity: 1;
+    }
+}
+
+.main-logo {
+    stroke-dasharray: 250;
+    stroke-dashoffset: 250;
+    animation: draw 2s ease-out forwards;
+}
+
+@keyframes draw {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+/* Projects section */
+.slider-1 {
+    --transition-delay: 0;
+}
+.slider-2 {
+    --transition-delay: 100ms;
+}
+.slider-3 {
+    --transition-delay: 200ms;
+}
+.slider-4 {
+    --transition-delay: 300ms;
+}
+.slider-1,
+.slider-2,
+.slider-3,
+.slider-4 {
+    transform: translate3d(0px, 101%, 0px);
+    transition: transform 0.5s ease-out;
+    transition-delay: var(--transition-delay);
+}
+.project:hover .slider-1,
+.project:hover .slider-2,
+.project:hover .slider-3,
+.project:hover .slider-4 {
+    transform: translate3d(0px, 0%, 0px);
+}
+
+.proj-img {
+    transform-origin: top left;
+    transition: transform 0.5s ease-out;
+}
+
+.project {
+    border: 1px solid #e0e0e0;
+    transform: translate3d(0px, 8rem, 0px);
+}
+
+.project:hover .proj-img {
+    transform: scale(1.095);
+}
+
+.project .bg-proj-text {
+    user-select: none;
+}
+
+.project ul > li::marker {
+    @apply text-primary text-lg;
+}
+
+.details-toggle {
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: opacity 0.5ms ease-out, height 0.5s ease-out;
+}
+
+.details-open {
+    opacity: 1;
+}
+
+nav svg {
+    stroke: white;
+}
+
+.sticky-nav {
+    position: fixed;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 5px 8px 17px -11px rgba(0, 0, 0, 0.125);
+    z-index: 999;
+    top: 0;
+    transition: all 0.7s ease-out;
+}
+.sticky-nav::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    backdrop-filter: blur(10px);
+}
+.sticky-nav a span {
+    color: #8b8b8b;
+}
+.sticky-nav svg {
+    stroke: #333;
+}
+
